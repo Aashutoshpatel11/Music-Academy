@@ -16,10 +16,10 @@ function HeroSection() {
         >
             <h1
                 className='text-2xl md:text-5xl lg:text-7xl font-bold '
-            >Master the Art of Music</h1>
+            >Ignite Your Creator Journey</h1>
             <p 
                 className=' text-sm md:text-md text-center w-full md:w-1/2' 
-            >Dive into our comprehensive music courses and transform your musical journey today. Whether you're a beginner or looking to refine your skills, join us to unlock your true potential.</p>
+            >Dive into our comprehensive creator masterclasses and transform your content journey today. From mastering viral video trends and building an authentic personal brand to unlocking diverse monetization strategies, our expert mentors guide you every step of the way.</p>
         </div>
         <div className='mt-8' >
             <Link href='/courses' >
