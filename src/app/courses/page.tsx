@@ -20,7 +20,7 @@ function coursesPage() {
         <h4 className='text-5xl font-bold'>{`ALL MASTERCLASSES(${coursesData.courses.length})`}</h4>
         <div className="flex flex-wrap justify-center items-center" >
             {coursesData.courses.map( (course:courseType) => (
-                <CardContainer className="inter-var m-4 mb-2">
+                <CardContainer key={course.id} className="inter-var m-4 mb-2">
                     <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/10 dark:bg-black dark:border-white/20 border-black/10 w-auto sm:w-120 h-auto rounded-xl p-6 border  ">
                         <CardItem
                         translateZ="50"
